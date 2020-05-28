@@ -11,5 +11,13 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afgettys/Good-ReadME-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/afgettys/Good-ReadME-Generator/issues"
+  },
+  "homepage": "https://github.com/afgettys/Good-ReadME-Generator#readme"
 }
