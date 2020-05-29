@@ -9,7 +9,7 @@ const questions =[
   },
   {
     type: "input",
-    name: "username",
+    name: "userName",
     message: "Please inform Github user name:"
   },
   {
@@ -29,25 +29,32 @@ const questions =[
   },  
   {
     type: "input",
-    name:"usage",
-    message: "How is the usage of this application?"    
+    name:"license",
+    message:"What license you like to use for this application?Answer none if none"
+  },
+  {
+    type: "input",
+    name:"contributors",
+    message: "Where there other contributors for this application?"    
   }, 
 ];
 
-//).then(data) => {
+function init() {
+  inquirer.prompt(questions).then(answer) =>{
+    fs.appendFileSync("README.md",("#" + answer.title)+ '\n',function(err) {
+      if (err) {
+        return console.log(err);
+      }
+      console.log("Success!");    
+  }
+  
+})
+
 
   var filename = data.name.toLowerCase().split(' ').join('') + ".json";
 
-  fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
+  fs.writeFile(filename, JSON.stringify(data, null, '\t'), 
 
-    if (err) {
-      return console.log(err);
-    }
-
-    console.log("Success!");
-
-  });
-};
 
 
 
@@ -63,8 +70,6 @@ const questions =[
 function writeToFile(fileName, data) {
 }
 
-function init() {
 
-}
 
 init();
