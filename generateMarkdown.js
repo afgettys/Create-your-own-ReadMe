@@ -1,8 +1,8 @@
+const base = require('markdown-badge');
 function generateMarkdown(data) {
-  return `
-# ${data.title}
-
-`;
+  return `${base}${data.title}`;
 }
 
 module.exports = generateMarkdown;
+
+//markdown from npm // 
