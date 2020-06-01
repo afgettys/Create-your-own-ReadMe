@@ -18,6 +18,7 @@ const questions = [
     name: "userName",
     message: "Please inform Github user name:"
   },
+  
   {
     type: "input",
     name: "description",
@@ -47,10 +48,8 @@ const questions = [
 
 function init() {
   inquirer.prompt(questions).then((response) => {
-    console.log(response)
     fs.writeFileSync("README.md", generateMarkdown(response))
   })
 };
-
 init()
 
