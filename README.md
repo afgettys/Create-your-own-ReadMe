@@ -1,21 +1,26 @@
+[![badge](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/HomeWork Week 9create your own READMEafgettysDinamically creates a readme file on node using terminalafter running command node index on terminal, answer all the questionssuitable for all users, working on a team or aloneMITKevin F)
 
-  [![badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/HOMEWORK WEEK 9/Create your own README/afgettys/Dinamically generates a README file/After running command node index on terminal, answer all the questions /Suitable for all users, working on a team or alone/MIT/Kevin F)
 
+#**TITLE**:
+HomeWork Week 9 
 
-#**TITLE**:|HOMEWORK WEEK 9 
-------------------------------
-##*PROJECT NAME*:|Create your own README
-------------------------------
-##USER NAME:|afgettys
-------------------------------
-##DESCRIPTION OF THE PROJECT:|Dinamically generates a README file
-------------------------------
-##INSTALATION INSTRUCTIONS: |After running command node index on terminal, answer all the questions 
-------------------------------
-##USAGE:|Suitable for all users, working on a team or alone
-------------------------------
-##LICENSE:|MIT
-------------------------------
-##CONTRIBUTORS: Kevin F
+##*PROJECT NAME*:
+create your own README
 
-![Screenshots.](/image/screenshot.jpg)
+##USER NAME:
+afgettys
+
+##DESCRIPTION OF THE PROJECT:
+Dinamically creates a readme file on node using terminal
+
+##INSTALATION INSTRUCTIONS: 
+after running command node index on terminal, answer all the questions
+
+##USAGE:
+suitable for all users, working on a team or alone
+
+##LICENSE:
+MIT
+
+##CONTRIBUTORS:
+Kevin F
